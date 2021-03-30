@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    background-color: #333;
+    font-family: 'Oswald', sans-serif; 
+    
+    
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+/*LAYOUT*/
+.navbar{
+    background-color: #222;
+    box-shadow: rgb(151, 151, 151)  0px 0px 10px 5px;
+  
+}
+.navbar a {
+    color: white;
+} 
+.navbar>ul{
+    
+    /* border: 2px solid white;*/
+     display: inline-block; 
+     vertical-align: middle;
+ }
+ .navbar>ul>li {
+    /*border: 2px solid orange;*/
+    display: inline-block; 
+    vertical-align: middle;
+    padding: 5px 10px;
+ }
+ .navbar>ul.branding{
+    margin-right: 100px ;
+    margin-left: 50px;
+    
+}
+.navbar>ul.branding li:first-child{
+    font-size: 30px;
+}
+.navbar>ul.client{
+    
+    margin-left: 628px;
+}

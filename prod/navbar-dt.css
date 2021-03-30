@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    background-color: #333;
+    font-family: 'Oswald', sans-serif; 
+    
+    
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+/*LAYOUT*/
+.navbar{
+    background-color: #222;
+    box-shadow: rgb(151, 151, 151)  0px 0px 10px 5px;
+    width: 100%;
+    display: table;
+}
+.navbar a {
+    color: white;
+} 
+.navbar .row {
+    display: table-row;
+}
+.navbar ul{
+  /* border: 2px solid white;*/
+   display: table-cell;
+   vertical-align: middle;
+}
+
+.navbar li {
+    display: table-cell;
+    padding: 10px 10px;
+    vertical-align: middle;
+}.navbar ul.branding{
+    padding-right: 100px ;
+    padding-left: 50px;
+}
+.navbar ul.client {
+    text-align: right;
+}
+.navbar ul.branding li:first-child{
+    font-size: 30px;
+}
